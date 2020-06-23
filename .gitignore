@@ -1,0 +1,104 @@
+## cache
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.cache
+
+# C extensions
+*.so
+
+## Linter is mandatory
+!.pylintrc
+
+## Distribution / packaging
+.Python
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+## Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pyenv
+.python-version
+
+## IDE
+
+# Pycharm project files
+.idea/
+*.iws /out/ 
+
+# Vscode
+.vscode
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+## Unit testing
+
+# PyTest cache
+.pytest_cache/
+
+# Coverage
+.coverage
+coverage.xml
+
+# Tox
+.tox/
+.cache/
+
+# Others
+nosetests.xml
+.hypothesis/
+
+## Logs
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# celery 
+celerybeat-schedule.* 
+
+# general
+*.log
+
+## Backup files 
+*.bak
+
+## Custom
+
+# Dataset / Database sample
+dataset/
+db.sqlite3
+
+# data
+data/*/*
+!data/**/.gitkeep
+
+# keep
+conf/env/*
+!conf/env/
+!conf/env/.gitkeep

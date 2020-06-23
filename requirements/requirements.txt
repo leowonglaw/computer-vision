@@ -1,0 +1,4 @@
+-r requirements-config.txt
+-r requirements-linting.txt
+-r requirements-packaging.txt
+-r requirements-api.txt
